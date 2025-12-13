@@ -15,7 +15,7 @@ const corsMiddleware = cors({
 })
 
 // Apply CORS middleware to the HTTP server
-httpServer.on('request', corsMiddleware)
+// httpServer.on('request', corsMiddleware)
 
 // Create Socket.IO server
 const io = new SocketIOServer(httpServer, {
